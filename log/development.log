@@ -4182,3 +4182,85 @@ Refile::App: [2020-11-06 12:09:06 +0000] GET "/19ab244854fd9edc3cfdbb9211b575b74
 
 Refile::App: [2020-11-06 12:09:06 +0000] GET "/a734dd8f89fed7bd8e920b584b5c1308c182f97a/store/5c6d9ab0f387ef02d7ecdec7bce095165a097a8acc7b81f070cebc7f3a53/image.jpeg" 200 7.4ms
 
+Started GET "/" for 150.31.9.38 at 2020-11-06 13:05:12 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 16ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todolists/4" for 150.31.9.38 at 2020-11-06 13:05:17 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/todolists_controller.rb:17
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 146ms (Views: 134.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/todolists/4" for 150.31.9.38 at 2020-11-06 13:05:19 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/todolists_controller.rb:17
+  Rendering todolists/show.html.erb within layouts/application
+  Rendered todolists/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/todolists/4" for 150.31.9.38 at 2020-11-06 13:05:23 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CYKeYaFpTgOCWt9t296++4NgK0AkxH8GClJ9BgA9lz59o+n+pm8z1J+gCkJV4emZTdHiMKkhiAcqHQgYLObUJg==", "id"=>"4"}
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/todolists_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/todolists_controller.rb:31
+  [1m[36mList Destroy (0.2ms)[0m  [1m[31mDELETE FROM "lists" WHERE "lists"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/todolists_controller.rb:31
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/todolists_controller.rb:31
+Redirected to https://cc80ffb1d73c4aa995a7b1ef81ad5fdb.vfs.cloud9.us-east-1.amazonaws.com/todolists
+Completed 302 Found in 13ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/todolists" for 150.31.9.38 at 2020-11-06 13:05:23 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#index as HTML
+  Rendering todolists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/views/todolists/index.html.erb:2
+  Rendered todolists/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/attachments/91b2514c97282145d04a55a3bb92b985e0c1cd72/store/2d84f70852f3518b7b71bc96c228e8a10b4cb1bd2a6d4ecf3ca64e585474/image.jpeg" for 150.31.9.38 at 2020-11-06 13:05:24 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/attachments/7322b13042a366700a69b7b6d15c61f8a38c593b/store/07b6f5e88115a64e5817223caefd7e38907afdc03c7f5662f74d167e1a7f/image.jpeg" for 150.31.9.38 at 2020-11-06 13:05:24 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/attachments/0ab5c793804b58280786b11da5cb90537b26767a/store/58510f1733cfc9059a2ecffb2489da842b32ceb1095f76c3b9ea26bce9df/image.jpeg" for 150.31.9.38 at 2020-11-06 13:05:24 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2020-11-06 13:05:24 +0000] GET "/91b2514c97282145d04a55a3bb92b985e0c1cd72/store/2d84f70852f3518b7b71bc96c228e8a10b4cb1bd2a6d4ecf3ca64e585474/image.jpeg" 200 9.5ms
+
+Refile::App: [2020-11-06 13:05:24 +0000] GET "/7322b13042a366700a69b7b6d15c61f8a38c593b/store/07b6f5e88115a64e5817223caefd7e38907afdc03c7f5662f74d167e1a7f/image.jpeg" 200 7.5ms
+
+Started GET "/attachments/e3d661cc698158268feb33b08e2b96021753e0af/store/969ce18b1ba9189aaa300bd17da539d40867a45ab3df5bfadde01a671cdb/image.jpeg" for 150.31.9.38 at 2020-11-06 13:05:24 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/attachments/a734dd8f89fed7bd8e920b584b5c1308c182f97a/store/5c6d9ab0f387ef02d7ecdec7bce095165a097a8acc7b81f070cebc7f3a53/image.jpeg" for 150.31.9.38 at 2020-11-06 13:05:24 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/attachments/19ab244854fd9edc3cfdbb9211b575b745b4246a/store/85e701030d0ada57a3b6d0203eac550be19590e08d9f68b73f7adf9af920/image.jpeg" for 150.31.9.38 at 2020-11-06 13:05:24 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2020-11-06 13:05:24 +0000] GET "/e3d661cc698158268feb33b08e2b96021753e0af/store/969ce18b1ba9189aaa300bd17da539d40867a45ab3df5bfadde01a671cdb/image.jpeg" 200 5.5ms
+
+Refile::App: [2020-11-06 13:05:24 +0000] GET "/a734dd8f89fed7bd8e920b584b5c1308c182f97a/store/5c6d9ab0f387ef02d7ecdec7bce095165a097a8acc7b81f070cebc7f3a53/image.jpeg" 200 3.5ms
+
+Refile::App: [2020-11-06 13:05:24 +0000] GET "/0ab5c793804b58280786b11da5cb90537b26767a/store/58510f1733cfc9059a2ecffb2489da842b32ceb1095f76c3b9ea26bce9df/image.jpeg" 200 9.1ms
+
+Refile::App: [2020-11-06 13:05:24 +0000] GET "/19ab244854fd9edc3cfdbb9211b575b745b4246a/store/85e701030d0ada57a3b6d0203eac550be19590e08d9f68b73f7adf9af920/image.jpeg" 200 4.2ms
+
