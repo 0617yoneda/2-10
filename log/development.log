@@ -4264,3 +4264,147 @@ Refile::App: [2020-11-06 13:05:24 +0000] GET "/0ab5c793804b58280786b11da5cb90537
 
 Refile::App: [2020-11-06 13:05:24 +0000] GET "/19ab244854fd9edc3cfdbb9211b575b745b4246a/store/85e701030d0ada57a3b6d0203eac550be19590e08d9f68b73f7adf9af920/image.jpeg" 200 4.2ms
 
+Started GET "/" for 150.31.9.38 at 2020-11-06 13:58:17 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 15ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 150.31.9.38 at 2020-11-06 13:58:23 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 150.31.9.38 at 2020-11-06 13:58:26 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 150.31.9.38 at 2020-11-06 13:58:27 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todolists" for 150.31.9.38 at 2020-11-06 13:58:30 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#index as HTML
+  Rendering todolists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/views/todolists/index.html.erb:2
+  Rendered todolists/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 150ms (Views: 147.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/attachments/da0658c39617473f0def5c93357beb6538d93c22/store/fill/200/200/2d84f70852f3518b7b71bc96c228e8a10b4cb1bd2a6d4ecf3ca64e585474/image.jpeg" for 150.31.9.38 at 2020-11-06 13:58:31 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/attachments/80dcdd8e2fed4409104c3347213fdb3083b3be8c/store/fill/200/200/07b6f5e88115a64e5817223caefd7e38907afdc03c7f5662f74d167e1a7f/image.jpeg" for 150.31.9.38 at 2020-11-06 13:58:31 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/attachments/16d7976a5590b1bc606f5c9fce59da8b7f1f134b/store/fill/200/200/58510f1733cfc9059a2ecffb2489da842b32ceb1095f76c3b9ea26bce9df/image.jpeg" for 150.31.9.38 at 2020-11-06 13:58:31 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/attachments/e34a297e8c19d702daa2f9ee0473e7de97de9d4b/store/fill/200/200/969ce18b1ba9189aaa300bd17da539d40867a45ab3df5bfadde01a671cdb/image.jpeg" for 150.31.9.38 at 2020-11-06 13:58:31 +0000
+Started GET "/attachments/2f9f92738c86b1a77ac4460806541ecf8efdd6fa/store/fill/200/200/5c6d9ab0f387ef02d7ecdec7bce095165a097a8acc7b81f070cebc7f3a53/image.jpeg" for 150.31.9.38 at 2020-11-06 13:58:31 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2020-11-06 13:58:31 +0000] GET "/16d7976a5590b1bc606f5c9fce59da8b7f1f134b/store/fill/200/200/58510f1733cfc9059a2ecffb2489da842b32ceb1095f76c3b9ea26bce9df/image.jpeg" 200 303.1ms
+
+Started GET "/attachments/061ff4b06bcef878798abf515d31d1a194868956/store/fill/200/200/85e701030d0ada57a3b6d0203eac550be19590e08d9f68b73f7adf9af920/image.jpeg" for 150.31.9.38 at 2020-11-06 13:58:31 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2020-11-06 13:58:31 +0000] GET "/80dcdd8e2fed4409104c3347213fdb3083b3be8c/store/fill/200/200/07b6f5e88115a64e5817223caefd7e38907afdc03c7f5662f74d167e1a7f/image.jpeg" 200 306.7ms
+
+Started GET "/attachments/373c4d2231d04a4d9ea3c19516e4c46bfc21cdbc/store/fill/200/200/6cdf1095c4f50514bce31e8b67a9fa966fb8a38023571ac5ea4b11ecc438/image.jpeg" for 150.31.9.38 at 2020-11-06 13:58:31 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2020-11-06 13:58:31 +0000] GET "/2f9f92738c86b1a77ac4460806541ecf8efdd6fa/store/fill/200/200/5c6d9ab0f387ef02d7ecdec7bce095165a097a8acc7b81f070cebc7f3a53/image.jpeg" 200 303.3ms
+
+Refile::App: [2020-11-06 13:58:31 +0000] GET "/e34a297e8c19d702daa2f9ee0473e7de97de9d4b/store/fill/200/200/969ce18b1ba9189aaa300bd17da539d40867a45ab3df5bfadde01a671cdb/image.jpeg" 200 311.5ms
+
+Refile::App: [2020-11-06 13:58:31 +0000] GET "/da0658c39617473f0def5c93357beb6538d93c22/store/fill/200/200/2d84f70852f3518b7b71bc96c228e8a10b4cb1bd2a6d4ecf3ca64e585474/image.jpeg" 200 326.7ms
+
+Refile::App: [2020-11-06 13:58:31 +0000] GET "/373c4d2231d04a4d9ea3c19516e4c46bfc21cdbc/store/fill/200/200/6cdf1095c4f50514bce31e8b67a9fa966fb8a38023571ac5ea4b11ecc438/image.jpeg" 200 96.0ms
+
+Refile::App: [2020-11-06 13:58:31 +0000] GET "/061ff4b06bcef878798abf515d31d1a194868956/store/fill/200/200/85e701030d0ada57a3b6d0203eac550be19590e08d9f68b73f7adf9af920/image.jpeg" 200 101.4ms
+
+Started GET "/index" for 150.31.9.38 at 2020-11-06 13:58:33 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 150.31.9.38 at 2020-11-06 14:05:12 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 15ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todolists" for 150.31.9.38 at 2020-11-06 14:05:24 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by TodolistsController#index as HTML
+  Rendering todolists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/views/todolists/index.html.erb:2
+  Rendered todolists/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 221ms (Views: 211.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/todolists" for 150.31.9.38 at 2020-11-06 14:05:26 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#index as HTML
+  Rendering todolists/index.html.erb within layouts/application
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/views/todolists/index.html.erb:2
+  Rendered todolists/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/todolists/new" for 150.31.9.38 at 2020-11-06 14:06:03 +0000
+Cannot render console from 150.31.9.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodolistsController#new as HTML
+  Rendering todolists/new.html.erb within layouts/application
+  Rendered todolists/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
